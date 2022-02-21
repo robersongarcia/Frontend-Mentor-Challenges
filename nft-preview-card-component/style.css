@@ -1,0 +1,98 @@
+/* General Styles */
+
+*   {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+  }
+
+  hr{
+    border: none;
+    height: 1px; 
+    background-color: rgb(102, 101, 101); 
+  }
+
+.container {
+    background-color: hsl(217, 54%, 11%);
+        
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card Styles */
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    
+    display: flex;
+    flex-direction: column;
+    
+    border-radius: 20px;
+    padding: 20px;
+    
+    color: hsl(0, 0%, 100%);
+    
+    width: 350px;
+
+}
+
+/* Body Card Styles */
+
+.card-image {
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.text   {
+    font-size: 17px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    color: hsl(215, 39%, 78%);
+}
+
+.info   {
+    font-size: 14px;
+    
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
+
+.value  {
+    display: flex;    
+    color:  hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+.date {
+    display: flex;
+    color: hsl(215, 39%, 78%);
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.info span{
+    margin-left: 6px;
+}
+
+.author {
+    margin-top: 10px;    
+
+    display: flex;
+    align-items: center;    
+}
+
+.author img{
+    width: 20px;
+}
