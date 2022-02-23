@@ -38,6 +38,7 @@
     
     width: 350px;
 
+    box-shadow: 20px 20px 20px 20px hsl(216, 58%, 8%);
 }
 
 /* Body Card Styles */
@@ -94,5 +95,19 @@
 }
 
 .author img{
-    width: 20px;
+    width: 26px;    
+    border-radius: 50%;
+    border: 1px solid;
+    margin-right: 20px;
 }
+
+.author span{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.author span span{
+    color: hsl(215, 39%, 78%);;
+}
+
+
