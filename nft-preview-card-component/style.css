@@ -43,9 +43,22 @@
 
 /* Body Card Styles */
 
-.card-image {
-    border-radius: 5px;
+.img-div{           
     margin-bottom: 20px;
+}
+
+.img-div svg{
+    z-index: 3;
+    position: absolute;
+    left: 50%;
+    margin-left: -24px;
+    top: 30%;
+    margin-top: -14.4px;
+}
+
+.card-image {      
+    width: 100%; 
+    border-radius: 5px;
 }
 
 .title {
@@ -111,3 +124,38 @@
 }
 
 
+/* Hover effects */
+.color{
+    position: relative;
+    height:310px;
+    border-radius:5px;
+    z-index: 4;
+}
+
+.color:hover{
+    z-index: 2;
+    cursor: pointer;
+}
+
+
+.color:hover::after{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,255,247,0.4);
+    z-index:2;
+    border-radius: 5px;
+}
+
+.title:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.author-name:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
